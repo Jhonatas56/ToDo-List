@@ -3,6 +3,8 @@
   width: 46rem;
   align-items: center;
   gap: 8px;
+  transform: translateY(-50%);
+  margin-bottom: 3rem;
 }
 
 .newTaskInput {
@@ -31,4 +33,23 @@
 
 .newTaskButton svg {
   background-size: cover;
+}
+
+.tasksCount {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  align-self: stretch;
+}
+
+.tasksCount .tasksCreatedCount {
+  color: var(--blue);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.tasksCount .tasksCompletedCount {
+  color: var(--purple);
+  font-size: 1rem;
+  font-weight: 700;
 }
