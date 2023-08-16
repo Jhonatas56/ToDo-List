@@ -6,8 +6,8 @@ import styles from "./Header.module.css"
 export function Header() {
   return (
     <header className={styles.header}>
-      <img src={Rocket} alt="Rocket Logo" />
-      <img src={Todo} alt="Todo Logo" />
+      <img className={styles.rocket} src={Rocket} alt="Rocket Logo" />
+      <img className={styles.todo} src={Todo} alt="Todo Logo" />
     </header>
   )
 }

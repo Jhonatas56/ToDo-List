@@ -1,0 +1,34 @@
+.formTask {
+  display: flex;
+  width: 46rem;
+  align-items: center;
+  gap: 8px;
+}
+
+.newTaskInput {
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+  flex: 1 1 0;
+
+  border-radius: 8px;
+  border: 1px solid var(--gray-700);
+  background: var(--gray-500);
+  color: var(--gray-300);
+}
+
+.newTaskButton {
+  display: flex;
+  padding: 1rem;
+  margin: auto;
+
+  border-radius: 8px;
+  background: var(--blue-dark);
+  color: var(--gray-100);
+  border: none;
+  gap: 8px;
+}
+
+.newTaskButton svg {
+  background-size: cover;
+}
