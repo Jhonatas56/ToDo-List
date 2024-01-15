@@ -1,14 +1,14 @@
-import { Header } from './components/Header';
-import { NewTask } from './components/NewTask';
+import { Header } from "./components/Header";
+import { TasksArea } from "./containers/TasksArea";
 
-import styles from './App.module.css';
+import { Content } from "./styles";
 
 function App() {
   return (
-    <div className={styles.body}>
+    <Content>
       <Header />
-      <NewTask />
-    </div>
+      <TasksArea />
+    </Content>
   );
 }
 
